@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '16.0'
+
+target 'SnaphotTesting' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SnaphotTesting
+
+  target 'SnaphotTestingTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'SnapshotTesting'
+  end
+
+  target 'SnaphotTestingUITests' do
+    # Pods for testing
+  end
+
+end
