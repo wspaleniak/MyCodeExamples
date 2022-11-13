@@ -1,5 +1,5 @@
-App Life Cycle
-App View Cycle
+- App Life Cycle
+- App View Cycle
 Associated Values
 Async / Await
 Closures
